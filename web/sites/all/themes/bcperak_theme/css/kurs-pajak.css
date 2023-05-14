@@ -1,0 +1,61 @@
+.table-responsive {
+    overflow-x:auto;
+}
+
+#table-kurs-block {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+#table-kurs {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    width: 70%;
+}
+
+#table-kurs tr:nth-child(even){background-color: #f2f2f2;}
+
+#table-kurs tr:hover {background-color: #ddd;}
+
+#table-kurs th {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.kurs-no {
+    width: 20px;
+    text-align: right;
+}
+
+.kurs-negara {
+    text-align: left;
+}
+
+.kurs-mata-uang {
+    text-align: center;
+}
+
+.kurs-nilai {
+    text-align: right;
+}
+
+.bendera {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 40px; 
+    display: block;
+    margin: auto;
+}
+
+.bendera-kecil {
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    width: 40px; 
+    height: 20px;
+    display: block;
+    margin: auto;
+}

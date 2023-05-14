@@ -1,0 +1,194 @@
+{
+    "name": "drupal-composer/drupal-project",
+    "description": "Project template for Drupal 7 projects with composer",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/7"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-pdo": "*",
+        "ext-xml": "*",
+        "composer/installers": "^1.9",
+        "composer/semver": "^1.4",
+        "cweagans/composer-patches": "^1.7",
+        "drupal-composer/preserve-paths": "^0.1.6",
+        "drupal/addanother": "^2.3",
+        "drupal/addressfield": "^1.3",
+        "drupal/admin_views": "^1.7",
+        "drupal/advanced_help": "^1.6",
+        "drupal/auto_entitylabel": "^1.4",
+        "drupal/autoban": "^1.11",
+        "drupal/backup_migrate": "^3.9",
+        "drupal/blocked_ips_expire": "^1.0",
+        "drupal/breakpoints": "^1.6",
+        "drupal/browscap": "^2.3",
+        "drupal/captcha": "^1.7",
+        "drupal/charts": "^2.1",
+        "drupal/collageformatter": "^1.0@RC",
+        "drupal/colorbox": "^2.15",
+        "drupal/composer_autoloader": "^1.0",
+        "drupal/computed_field": "^1.1",
+        "drupal/context": "^3.10",
+        "drupal/ctools": "^1.19",
+        "drupal/date": "^2.11",
+        "drupal/devel": "^1.7",
+        "drupal/diff": "^3.4",
+        "drupal/drupal": "^7.62",
+        "drupal/ds": "^2.16",
+        "drupal/ds_extra_layouts": "^1.2",
+        "drupal/email": "^1.3",
+        "drupal/empty_front_page": "^1.0",
+        "drupal/entity": "^1.9",
+        "drupal/entity_panels": "^1.2",
+        "drupal/entityreference": "^1.5",
+        "drupal/faq": "^1.3",
+        "drupal/features": "^2.13",
+        "drupal/field_collection": "^1.2",
+        "drupal/field_collection_fieldset": "^2.6",
+        "drupal/field_collection_table": "^1.0@beta",
+        "drupal/field_collection_tabs": "^1.1",
+        "drupal/field_collection_views": "^1.0@beta",
+        "drupal/field_conditional_state": "^2.1",
+        "drupal/field_formatter_settings": "^1.1",
+        "drupal/field_group": "^1.6",
+        "drupal/field_slideshow": "^1.83",
+        "drupal/field_validation": "^2.6",
+        "drupal/filefield_paths": "^1.1",
+        "drupal/filefield_sources": "^1.11",
+        "drupal/flood_control": "^1.0",
+        "drupal/grid_field_formatter": "^1.1",
+        "drupal/hide_submit": "^2.4",
+        "drupal/i18n": "^1.31",
+        "drupal/image_link_formatter": "^1.1",
+        "drupal/imce": "^1.11",
+        "drupal/imce_filefield": "^1.1",
+        "drupal/imce_mkdir": "^1.0",
+        "drupal/imce_rename": "^1.3",
+        "drupal/imce_wysiwyg": "^1.0",
+        "drupal/ip_ranges": "^1.2",
+        "drupal/jcarousel": "^2.7",
+        "drupal/jquery_update": "^2.7",
+        "drupal/js_injector": "^2.1",
+        "drupal/l10n_update": "^2.4",
+        "drupal/libraries": "^2.5",
+        "drupal/link": "^1.9",
+        "drupal/mailsystem": "^2.35",
+        "drupal/migrate": "^2.11",
+        "drupal/mimemail": "^1.1",
+        "drupal/module_filter": "^2.2",
+        "drupal/module_missing_message_fixer": "^1.8",
+        "drupal/multiupload_filefield_widget": "^1.13",
+        "drupal/multiupload_imagefield_widget": "^1.3",
+        "drupal/nivo_slider": "^1.12",
+        "drupal/noreqnewpass": "^1.2",
+        "drupal/panels": "^3.10",
+        "drupal/panels_extra_layouts": "^2.0",
+        "drupal/path2ban": "^2.3",
+        "drupal/pathauto": "^1.3",
+        "drupal/pdf": "^1.9",
+        "drupal/pdf_to_imagefield": "^3.4",
+        "drupal/pdfpreview": "^2.1",
+        "drupal/permission_select": "^1.2",
+        "drupal/phpmailer": "^3.1",
+        "drupal/popup_question_redirect": "^1.3",
+        "drupal/profile2": "^2.0",
+        "drupal/quicktabs": "^3.8",
+        "drupal/realname": "^1.4",
+        "drupal/redirect": "^1.0@RC",
+        "drupal/redis": "^3.18",
+        "drupal/security_review": "^1.3",
+        "drupal/select_or_other": "^2.24",
+        "drupal/special_menu_items": "^2.1",
+        "drupal/splashify": "^1.3",
+        "drupal/switchtheme": "^1.0",
+        "drupal/systeminfo": "^3.0@beta",
+        "drupal/taxonomy_csv": "^5.11",
+        "drupal/token": "^1.8",
+        "drupal/transliteration": "^3.2",
+        "drupal/unique_field": "^1.0@RC",
+        "drupal/views": "^3.24",
+        "drupal/views_accordion": "^1.6",
+        "drupal/views_aggregator": "^1.5",
+        "drupal/views_bulk_operations": "^3.6",
+        "drupal/views_infinite_scroll": "^2.3",
+        "drupal/views_slideshow": "^3.10",
+        "drupal/views_slideshow_jcarousel": "^1.0",
+        "drupal/webform": "^4.23",
+        "drupal/webform_panels": "^1.1",
+        "drupal/wysiwyg": "^2.6",
+        "drupal/youtube": "^1.8",
+        "drush/drush": "^8.0",
+        "predis/predis": "^1.1",
+        "symfony/filesystem": "~2.7 || ^3",
+        "webflo/drupal-finder": "^1.2.1"
+    },
+    "conflict": {
+        "drupal/core": "8.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal-composer/preserve-paths": true
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-create-project-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::removeInternalFiles"
+        ]
+    },
+    "extra": {
+        "installer-paths": {
+            "web/": ["type:drupal-core"],
+            "web/profiles/{$name}/": ["type:drupal-profile"],
+            "web/sites/all/drush/{$name}/": ["type:drupal-drush"],
+            "web/sites/all/libraries/{$name}/": ["type:drupal-library"],
+            "web/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
+            "web/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"]
+        },
+        "patches-install-hooks": true,
+        "patches": {
+            "cweagans/composer-patches": {
+                "Call the preserve paths hooks" : "https://github.com/jcnventura/composer-patches/compare/1.x...jcnventura:fix-preserve-paths.diff"
+            }
+        },
+        "preserve-paths": [
+            "web/sites"
+        ]
+    }
+}
